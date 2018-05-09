@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie Tickets</h1>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Movie:</h2>
+          <form id="movie-watch">
+             <div class="form-group">
+               <label for="new-movie-name">Name of Movie</label> 
+               <input type="text" class="form-control" id="movie-name">
+             </div>
+             <div class="form-group">
+              <label for="new-genre">Genre</label>
+              <input type="text" class="form-control" id="new-genre">
+            </div>
+             <div class="form-group">
+               <label for="new-movie-time">Movie Time</label>
+               <input type="text" class="form-control" id="new-movie-time">
+             </div>
+             <div class="form-group">
+               <label for="new-age">Age</label>
+               <input type="text" class="form-control" id="new-age">
+             </div>
+
+             <button type="submit" class="btn">Add</button>
+          </form>
+
+          <h2>Bookings:</h2>
+          <ul id="bookings">
+
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div id="show-bookings">
+            <h2></h2>
+
+            <p>First name:<span class="first-name"></span></p>
+            <p>Last name:<span class="last-name"></span></p>
+            <p>Name of movie:<span class="movie-name"></span></p>
+            <p>Genre:<span class="movie-genre"></span></p>
+            <p>Movie time:<span class="time"></span></p>
+            <p>Age:<span class="age"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+    
+  </body>
+</html>
